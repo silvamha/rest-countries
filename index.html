@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Info Lookup</title>
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> Removed CDN link-->
+  <link rel="stylesheet" href="./src/main.scss">  <!--Corrected file extension-->
+</head>
+
+<body>
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="box">
+          <h1 class="title">Country Information Lookup</h1>
+          <div class="field">
+            <label class="label">Enter Country Name</label>
+            <div class="control">
+              <input class="input" type="text" id="countryInput" placeholder="e.g. Brazil">
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary" id="fetchCountryButton">Get Country Info</button>
+            </div>
+          </div>
+          <div id="countryOutput" class="content mt-5">
+            <!-- Output will be displayed here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

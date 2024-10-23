@@ -30,6 +30,10 @@ notes/
 *md 
 
 
+
+
 *.scss
 *.svg
 .env
+.docx
+.xls
